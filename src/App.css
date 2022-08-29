@@ -1,6 +1,12 @@
 .App {
   text-align: center;
 }
+.Galery{
+  text-align: center;
+  grid-template-columns: repeat(3,1fr);
+  display: grid;
+  gap: 0px;
+}
 
 .App-logo {
   height: 40vmin;
